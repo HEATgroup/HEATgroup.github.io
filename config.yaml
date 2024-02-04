@@ -1,4 +1,6 @@
-baseurl:"https://HEATgroup.github.io/"
+baseurl: "https://HEATgroup.github.io/"
+repository: "https://HEATgroup.github.io/"
+url: "https://HEATgroup.github.io/"
 languageCode: en-US
 title: HEAT website
 theme: hugo-lithium

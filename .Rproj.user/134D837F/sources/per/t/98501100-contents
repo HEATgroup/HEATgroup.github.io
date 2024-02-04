@@ -1,0 +1,45 @@
+baseurl: /
+languageCode: en-US
+title: A Hugo website
+theme: hugo-lithium
+googleAnalytics: ''
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+permalinks:
+  post: /:month/:day/:year/:slug/
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: People
+      url: /people/
+    - name: News
+      url: /news/
+    - name: Research
+      url: /research/
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built through Hugo and blogdown.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: HEATlogo.png
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no

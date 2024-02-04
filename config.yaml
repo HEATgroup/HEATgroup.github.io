@@ -1,6 +1,6 @@
-baseurl: /
+baseurl:"https://HEATgroup.github.io/"
 languageCode: en-US
-title: A Hugo website
+title: HEAT website
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
